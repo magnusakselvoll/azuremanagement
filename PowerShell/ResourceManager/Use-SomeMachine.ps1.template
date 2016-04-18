@@ -1,0 +1,6 @@
+# To create a template for easily working with one specific virtual machine,
+# change the RESOURCEGROUPNAME and VMNAME below and copy this file to e.g.
+# Use-SomeMachine.ps1. Then execute by running .\Use-SomeMachine.ps1 with
+# no parameters.
+
+.\Set-RmVm.ps1 -ResourceGroupName RESOURCEGROUPNAME -VmName VMNAME -RdpPort 3389
