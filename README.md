@@ -68,7 +68,7 @@ is read from Azure and then mstsc is used to connect to the machine.
 
 Syntax:
 ```
-.\Connect-RmVm.ps1 -ResourceGroupName <YOUR_RESOURCE_GROUP> -VmName <YOUR_VM_NAME> [-Port RdpPort]
+.\Connect-RmVm.ps1 -ResourceGroupName <YOUR_RESOURCE_GROUP> -VmName <YOUR_VM_NAME> [-Port <YOUR_VMS_RDP_PORT>]
 ```
 or if Set-RmVm has been used or you wish to set values interactively:
 ```
